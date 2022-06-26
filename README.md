@@ -3,5 +3,5 @@
 
 Coded by - [kareem shimes]
 
-![](/imges/Capture.PNG)
+![](/Capture.PNG)
 I made a Financial Calculator using html,css,js

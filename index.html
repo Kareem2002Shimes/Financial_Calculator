@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial calculator</title>
+    <!-- Css Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+        <div class="container d-flex">
+            <h3>Calculate your Rewards</h3>
+            <form class="form">
+               <div class="form-control">
+                <label>Vendor/Bills</label>
+                <input type="number" placeholder="Enter a number" class="input vendor">
+               </div>
+               <div class="form-control">
+                <label>Media/Ad Spend</label>
+                <input type="number" placeholder="Enter a number" class="input media">
+               </div>
+               <div class="form-control">
+                <label>Corp.Spend</label>
+                <input type="number" placeholder="Enter a number" class="input corp">
+               </div>
+               <div class="form-control">
+                <label>Team Project</label>
+                <input type="number" placeholder="Enter a number" class="input team">
+               </div>
+            </form>
+            <div class="btn-box">
+                <h4>Compare your Rewards</h4>
+                <button class="btn" data-target="brex">brex</button>
+                <button class="btn" data-target="stripe">stripe</button>
+                <button class="btn" data-target="amex">amex</button>
+            </div>
+            <div class="result-box">
+                <div class="img-box">
+                    <div class="img">
+                        <img src="card.jpeg" alt="card">
+                    </div>
+                    <div class="text">
+                        <p>Unlimited Rewards</p>
+                        <p>Lifetime Rewards</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="progress">
+                        <div class="progress-bar unlimited-Bar">
+                        </div>
+                        <span class="unlimitedReward"></span>
+                        <p class="per per-unlimited"></p>
+                    </div>
+                    <div class="progress ">
+                        <div class="progress-bar lifetime-Bar">
+                        </div>
+                        <span class="lifetimeReward"></span>
+                        <p class="per per-lifetime"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+    <!-- Js file -->
+    <script src="main.js"></script>
+</body>
+</html>
